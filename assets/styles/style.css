@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    font-size: 3em;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 150px;
+    height: 300px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.sinal {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.sinal_red_box {
+    background-color: #ff0000;
+    box-shadow:
+    0px 0px 5px #ff0000,
+    0px 0px 10px #ff0000,
+    0px 0px 20px #ff0000,
+    0px 0px 30px #ff0000,
+    0px 0px 40px #ff0000,
+    0px 0px 50px #ff0000,
+    0px 0px 60px #ff0000,
+    0px 0px 70px #ff0000;
+}
+
+.sinal_yellow_box {
+    background-color: #ffff00;
+    box-shadow:
+    0px 0px 5px #ffff00,
+    0px 0px 10px #ffff00,
+    0px 0px 20px #ffff00,
+    0px 0px 30px #ffff00,
+    0px 0px 40px #ffff00,
+    0px 0px 50px #ffff00,
+    0px 0px 60px #ffff00,
+    0px 0px 70px #ffff00;
+}
+
+.sinal_green_box {
+    background-color: #00ff00;
+    box-shadow: 
+    0px 0px 5px #00ff00,
+    0px 0px 10px #00ff00,
+    0px 0px 20px #00ff00,
+    0px 0px 30px #00ff00,
+    0px 0px 40px #00ff00,
+    0px 0px 50px #00ff00,
+    0px 0px 60px #00ff00,
+    0px 0px 70px #00ff00;
+}
